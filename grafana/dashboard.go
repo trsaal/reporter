@@ -91,7 +91,7 @@ func NewDashboard(dashJSON []byte, variables url.Values) Dashboard {
 		panic(err)
 	}
 	d := dash.NewDashboard(variables)
-	log.Printf("Populated dashboard datastructure trsaal: %+v\n", d)
+	log.Printf("Populated dashboard datastructure TRSAAL: %+v\n", d)
 	return d
 }
 
